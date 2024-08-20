@@ -1,0 +1,158 @@
+.container{
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+.flex{
+    display: flex;
+    justify-content:space-between;
+    justify-items: center;
+}
+
+header{
+    width: 100%;
+    padding: 25px 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    
+}
+
+header ul li{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+header ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+.Logo{
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.conteudo_homer{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 300px;
+
+}
+
+.texto{
+    color: rgb(255, 255, 255);
+    font-family: FreeMono, monospace;
+    font-weight: bolder;
+    
+}
+
+.texto p{
+    font-size: 17px;
+}
+
+.corVermelha{
+    color: brown;
+}
+
+.corVermelha_02{
+    color: brown;
+}
+
+.texto h1{
+   
+    font-size: 70px;
+    word-spacing: -20px;
+    line-height: 16px;
+}
+.texto h2{
+    word-spacing: -10px;
+    font-size: 35px;
+}
+
+.conteudo img{
+    width: 400px;
+    border-radius: 100px;
+}
+
+.conteudo_skills{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+ 
+.caixa_skills{
+    display: flex;
+    background-color: brown;
+    width: 400px;
+    height: 200px;
+    margin-top: 300px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 10px;
+    gap: 20px;
+    
+}
+
+.caixa_skills img{
+    width: 100px;
+}
+
+.caixa_skills div{
+    background-color: black;
+    width: 107px;
+    height: 115px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.caixa_skills p{
+    color: brown;
+    font-family: FreeMono, monospace;
+    font-weight: bolder;
+    margin-top: -12px;
+    justify-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.conteudo_skills h3{
+    color: aliceblue;
+    word-spacing: -10px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 200px;
+    
+
+}
+.conteudo h1{
+    color: aliceblue;
+}
+
+.skills_texto{
+    display: flex ;
+   
+}
